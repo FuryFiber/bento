@@ -31,8 +31,6 @@
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0)
   ); /* Filter color */
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
 }
 
 .darktheme {
@@ -81,11 +79,25 @@ body {
 .withImageBackground {
   background-image: var(--imgcol), var(--imgbg);
   background-size: cover;
-  /*
+}
+.bg-image {
+  /* The image used */
+  background-image: url("assets/background.jpg");
+  
+
+  /* Add the blur effect */
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 #themeButton {
   position: absolute;
