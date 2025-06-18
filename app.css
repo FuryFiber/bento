@@ -77,25 +77,21 @@ body {
 }
 
 .withImageBackground {
+  /*background-image: var(--imgcol), var(--imgbg);
+  background-size: cover;*/
+}
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
   background-image: var(--imgcol), var(--imgbg);
   background-size: cover;
-}
-.bg-image {
-  /* The image used */
-  background-image: url("assets/background.jpg");
-  
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  filter: blur(12px);
 }
 
 
