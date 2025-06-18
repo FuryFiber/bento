@@ -141,7 +141,7 @@ const CONFIG = {
 				{
 					name: 'LinkedIn',
 					link: 'https://www.linkedin.com',
-				}
+				},
 				{
 					name: 'Slack',
 					link: 'https://app.slack.com/client',
