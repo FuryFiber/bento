@@ -91,7 +91,7 @@ body {
   background-image: var(--imgcol), var(--imgbg);
   background-size: cover;
   background-position: center;
-  filter: blur(12px);
+  filter: blur(5px);
 }
 
 
