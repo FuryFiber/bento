@@ -172,6 +172,10 @@ const CONFIG = {
 					name: 'Typst',
 					link: 'https://typst.app/',
 				},
+				{
+					name: 'test',
+					link: 'https://typst.app/',
+				}
 			],
 		},
 	],
